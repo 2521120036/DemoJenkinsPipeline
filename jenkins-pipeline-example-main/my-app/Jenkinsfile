@@ -5,7 +5,7 @@ pipeline {
         maven "MAVEN"
         jdk "JDK"
     }
-
+//qdqwd
     stages {
         stage('Initialize'){
             steps{
