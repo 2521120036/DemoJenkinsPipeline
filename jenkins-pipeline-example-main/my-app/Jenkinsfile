@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                dir("DemoJenkinsPipeline/jenkins-pipeline-example-main/my-app/") {
+                dir("C:/Users/2521120036/git/DemoJenkinsPipeline/jenkins-pipeline-example-main/my-app") {
                 bat 'mvn -B -DskipTests clean package'
                 }
             
